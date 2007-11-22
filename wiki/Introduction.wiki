@@ -1,7 +1,5 @@
 #summary Introduction
 
-= Introduction =
-
 The *niek-ephem* tool is a C++ front end to JPL's DE405 ephemeris.  It includes:
 
   * A conversion utility to change JPL's ASCII interpolation coefficient files to a single binary file.
