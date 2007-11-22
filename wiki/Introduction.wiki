@@ -1,5 +1,4 @@
-#summary Introduction
-
+=Introduction=
 The *niek-ephem* tool is a C++ front end to JPL's DE405 ephemeris.  It includes:
 
   * A conversion utility to change JPL's ASCII interpolation coefficient files to a single binary file.
@@ -9,8 +8,17 @@ The *niek-ephem* tool is a C++ front end to JPL's DE405 ephemeris.  It includes:
 
 The correctness of the implementation has been verified using the JPL Horizons web-based ephemeris system.
 
-Currently, the documentation for this project is minimal.
 
+=Documentation=
+Currently, the documentation for this project is minimal.  
+
+Inside the v1.0.0 source release, there is a doc/misc directory.  This contains two interesting files:
+
+  * format.txt - description of how the DE405 ASCII datafiles are organized
+  * truth.txt  - description of how to configure the JPL Horizons web-based so that its output will match *niek-ephem*'s results.
+
+
+=Dependencies=
 The following tools and library are needed to fully utilize *niek-ephem*.  
 
   * Doxygen 
