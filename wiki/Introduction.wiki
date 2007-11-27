@@ -33,6 +33,7 @@ The ephemeris interpolation coefficients must be downloaded separately from JPL.
 =Usage=
 Here are the instruction for compiling and using *niek-ephem*:
 
+  # Open test/DE405EphemerisTest and change the "...JPL_DE405/de405.data" filename to point to where the generated ephemerides will be read from.  
   # In the top-level directory, type "make".  
     Ignore the warnings saying "Makefile:108: src/DE405Ephemeris.d: No such file or directory".  These files will automatically be generated.
   # Change to the "./util" directory
